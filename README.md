@@ -58,6 +58,10 @@ As pastas são organizadas da seguinte forma:
 ## 4. Desenvolvimento do Jogo <a id="desenvolvimento-do-jogo"></a>
 
 ### 4.1 Personagem Principal <a id="personagem-principal"></a>
+![Imagem do perssonagem](sprites/soldado/idle.gif) 
+![Imagem do perssonagem](sprites/soldado/run.gif) 
+![Imagem do perssonagem](sprites/soldado/shoot.gif) 
+
 O jogador controla um soldado experiente com a missão de proteger a tecnologia que pode reverter a praga. O soldado pode andar, pular e atirar para enfrentar inimigos.
 
 ### 4.2 Inimigos <a id="inimigos"></a>
