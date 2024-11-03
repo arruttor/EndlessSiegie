@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://cpp262rj5kmsq"]
+
+[ext_resource type="PackedScene" uid="uid://bkhmc77ft32ha" path="res://scenes/Fundo_scene/fundo.tscn" id="1_nnxm4"]
+[ext_resource type="PackedScene" uid="uid://c7nj2lkewdxt6" path="res://Player_Scene/player.tscn" id="2_x6rmp"]
+[ext_resource type="PackedScene" uid="uid://dathjf4vtxapi" path="res://scenes/zombie_Scene/zombie.tscn" id="3_ih6gb"]
+
+[node name="MainScene" type="Node2D"]
+
+[node name="Fundo" parent="." instance=ExtResource("1_nnxm4")]
+position = Vector2(0, 116)
+script = null
+
+[node name="player" parent="." instance=ExtResource("2_x6rmp")]
+position = Vector2(576, 448)
+scale = Vector2(1.3, 1.3)
+
+[node name="zombie" parent="player" instance=ExtResource("3_ih6gb")]
+position = Vector2(83.0769, -55.3846)

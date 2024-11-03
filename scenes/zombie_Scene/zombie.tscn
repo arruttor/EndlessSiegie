@@ -1,0 +1,83 @@
+[gd_scene load_steps=13 format=3 uid="uid://dathjf4vtxapi"]
+
+[ext_resource type="Script" path="res://scenes/zombie_Scene/character_body_2d.gd" id="1_4vd4w"]
+[ext_resource type="Texture2D" uid="uid://d2d4di8lytqn0" path="res://Assets/Sprites/Enimies/Zombie/Walk.png" id="1_34lno"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pm36m"]
+size = Vector2(30, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5uuu4"]
+atlas = ExtResource("1_34lno")
+region = Rect2(0, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n7c07"]
+atlas = ExtResource("1_34lno")
+region = Rect2(96, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v6cex"]
+atlas = ExtResource("1_34lno")
+region = Rect2(192, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_af3p8"]
+atlas = ExtResource("1_34lno")
+region = Rect2(288, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h40nu"]
+atlas = ExtResource("1_34lno")
+region = Rect2(384, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0b1fi"]
+atlas = ExtResource("1_34lno")
+region = Rect2(480, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xahdj"]
+atlas = ExtResource("1_34lno")
+region = Rect2(576, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cglga"]
+atlas = ExtResource("1_34lno")
+region = Rect2(672, 0, 96, 96)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_t6j5y"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5uuu4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n7c07")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v6cex")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_af3p8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h40nu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0b1fi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xahdj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cglga")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="zombie" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("1_4vd4w")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(1, 16)
+shape = SubResource("RectangleShape2D_pm36m")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
+sprite_frames = SubResource("SpriteFrames_t6j5y")
