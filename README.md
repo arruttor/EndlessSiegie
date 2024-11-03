@@ -2,7 +2,6 @@
 
 **VINICIUS MARTINS BORGES**  
 **RA:** 32328142
-
 ---
 
 ## Desenvolvimento de Jogo 2D - *Endless Siege*
