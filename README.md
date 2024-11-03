@@ -1,7 +1,13 @@
 # ÂNIMA EDUCAÇÃO
 
 **VINICIUS MARTINS BORGES**  
-**RA:** 32328142
+**RA:** 32328142  
+**VITOR HUGO LIMA DE ALMEIDA**  
+**RA:** 1242021781  
+**GABRIEL PARRA BOITO**  
+**RA:** 824152876  
+**EDSON SOUZA BARRETO NETO**  
+**RA:** 12724163069  
 ---
 
 ## Desenvolvimento de Jogo 2D - *Endless Siege*
