@@ -8,6 +8,9 @@
 **RA:** 824152876  
 **EDSON SOUZA BARRETO NETO**  
 **RA:** 12724163069  
+**MATHEUS CORDEIRO DA SILVA**  
+**RA:** 324232944  
+
 ---
 
 ## Desenvolvimento de Jogo 2D - *Endless Siege*
