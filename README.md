@@ -1,23 +1,17 @@
-# ÂNIMA EDUCAÇÃO
+# Endless Siege
 
-**VINICIUS MARTINS BORGES**  
-**RA:** 32328142  
-**VITOR HUGO LIMA DE ALMEIDA**  
-**RA:** 1242021781  
-**GABRIEL PARRA BOITO**  
-**RA:** 824152876  
-**EDSON SOUZA BARRETO NETO**  
-**RA:** 12724163069  
-**MATHEUS CORDEIRO DA SILVA**  
-**RA:** 324232944  
+Um jogo de plataforma 2D desenvolvido em Godot, onde o jogador controla um soldado que enfrenta hordas de inimigos em um mundo pós-apocalíptico.
+
+## Autores
+**VINICIUS MARTINS BORGES** - RA: 32328142  
+**VITOR HUGO LIMA DE ALMEIDA** - RA: 1242021781  
+**GABRIEL PARRA BOITO** - RA: 824152876  
+**EDSON SOUZA BARRETO NETO** - RA: 12724163069  
+**MATHEUS CORDEIRO DA SILVA** - RA: 324232944  
 
 ---
 
-## Desenvolvimento de Jogo 2D - *Endless Siege*
-
----
-
-### Sumário
+## Sumário
 1. [Introdução](#introdução)
     - [Objetivo](#objetivo)
 2. [Enredo do Jogo](#enredo-do-jogo)
@@ -29,6 +23,7 @@
 4. [Desenvolvimento do Jogo](#desenvolvimento-do-jogo)
     - [Personagem Principal](#personagem-principal)
     - [Inimigos](#inimigos)
+    - [Power-ups](#power-ups)
     - [Cenários](#cenários)
 5. [Organização das Cenas e Hierarquia](#organização-das-cenas-e-hierarquia)
 
@@ -63,6 +58,8 @@ Utilizamos a engine **Godot** para desenvolver o jogo. O projeto é nomeado *End
 As pastas são organizadas da seguinte forma:
 - **res://scenes/**: Cenas do jogo
 - **res://assets/**: Elementos gráficos do jogo
+- **res://scripts/**: Scripts e lógica de jogo
+- **res://ui/**: Elementos da interface de usuário (HUD e menus)
 
 ## 4. Desenvolvimento do Jogo <a id="desenvolvimento-do-jogo"></a>
 
@@ -97,7 +94,13 @@ Durante o jogo, o soldado enfrentará vários inimigos, cada um com característ
   ![Imagem de Górgonas](sprites/gorgon/walk.gif)
   Comandam os outros monstros, servindo como líderes das hordas.
 
-### 4.3 Cenários <a id="cenários"></a>
+### 4.3 Power-ups <a id="power-ups"></a>
+Durante a missão, o soldado encontrará power-ups enviados por sua tropa para ajudá-lo a sobreviver:
+- **Força do Tiro**: Aumenta o dano dos tiros, permitindo derrotar inimigos com mais facilidade.
+- **Reforço Aéreo**: Um bombardeio aéreo destrói todos os inimigos na tela.
+- **Recuperação**: Recupera parte da vida do soldado, permitindo resistir por mais tempo.
+
+### 4.4 Cenários <a id="cenários"></a>
 O cenário do jogo é apocalíptico, com cidades devastadas e áreas abandonadas. Os cenários são construídos com tiles e incluem:
 - **Parallax Background**: Para adicionar profundidade e perspectiva.
 - **Tilemap**: Utilizado para construir o chão, as plataformas e outras partes do cenário.
@@ -134,5 +137,3 @@ Seguem a mesma estrutura da cena do personagem, exceto que não possuem o nó `C
         - **VisibleOnScreenNotifier2D**: Destroi a bala quando sai da tela, evitando sobrecarga de instâncias.
 
 ---
-
-Pronto! Com essa estrutura, o README está preparado para apresentar o jogo e servir como referência para quem quiser explorar o código e a organização do projeto no repositório.
