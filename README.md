@@ -96,9 +96,9 @@ Durante o jogo, o soldado enfrentará vários inimigos, cada um com característ
 
 ### 4.3 Power-ups <a id="power-ups"></a>
 Durante a missão, o soldado encontrará power-ups enviados por sua tropa para ajudá-lo a sobreviver:
--![Imagem do power-up](sprites/powerup/tiro.png) **Força do Tiro**: Aumenta o dano dos tiros, permitindo derrotar inimigos com mais facilidade.
--![Imagem do power-up](sprites/powerup/aereo.png) **Reforço Aéreo**: Um bombardeio aéreo destrói todos os inimigos na tela.
--![Imagem do power-up](sprites/powerup/reforco.png) **Recuperação**: Recupera parte da vida do soldado, permitindo resistir por mais tempo.
+-![Imagem do power-up](sprites/powerup/tiro.png) **Força do Tiro**: Aumenta o dano dos tiros, permitindo derrotar inimigos com mais facilidade.  
+-![Imagem do power-up](sprites/powerup/aereo.png) **Reforço Aéreo**: Um bombardeio aéreo destrói todos os inimigos na tela.  
+-![Imagem do power-up](sprites/powerup/reforco.png) **Recuperação**: Recupera parte da vida do soldado, permitindo resistir por mais tempo.  
 
 ### 4.4 Cenários <a id="cenários"></a>
 O cenário do jogo é apocalíptico, com cidades devastadas e áreas abandonadas. Os cenários são construídos com tiles e incluem:
